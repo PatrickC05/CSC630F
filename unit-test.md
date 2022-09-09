@@ -35,10 +35,12 @@ if __name__ == '__main__':
 The functions `assertEqual`, `assertTrue`, and `assertFalse` can be used to test if the output of a function is correct. Although used trivially in this example to test built-in string operators, these tests can be used to test more complex units such as the ones listed above.
 
 ## Defense of Unit Testing
-Because unit testing evaluates each unit of code in isolation, bugs can be more easily detected. The developer will know which unit is at the source of the bug, saving time in the process. However, if only running a program from start to finish, an unexpected result could stem from anywhere. Even if the expected result is achieved, multiple mistakes could have canceled out. In large programs such as web apps, automated unit testing is also significantly more efficient than manually testing critical units, such as web pages or database queries. With just one set of tests, the developer can ensure that essential units are working properly. The automated nature of unit testing not only saves time in debugging code, but also reduces the time needed to test the code.
+Because unit testing evaluates each unit of code in isolation, bugs can be more easily detected. The developer will know which unit is at the source of the bug, saving time in the process. However, if only running a program from start to finish, an unexpected result could stem from anywhere. Even if the expected result is achieved, multiple mistakes could have canceled out. In large programs such as web apps, automated unit testing is also significantly more efficient than manually testing critical units, such as web pages or database queries. With just one set of tests, the developer can ensure that essential units are working properly after each modification of code. The automated nature of unit testing not only saves time in debugging code, but also reduces the time needed to test the code.
 
 ## Sources
 https://www.geeksforgeeks.org/unit-testing-software-testing/
+
+https://docs.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2022
 
 https://docs.djangoproject.com/en/4.1/topics/testing/overview/
 
