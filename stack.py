@@ -5,6 +5,10 @@ size vs len for getting the number of elements, and peek for getting the most re
 Pop (for removing and returning the last element) removes the same. However, it's also interesting that
 the last in first out nature is removed from python lists. In stacks, you aren't able to remove elements
 midway through the list, whereas you can in Python lists.
+
+Reading more, I realized that append in list is actually an O(n) operation, whereas push in stack is O(1).
+As an alternative, Python has a built-in library called LifoQueue, which implements a data structure more
+similar to a stack.
 """
 
 class Stack():
